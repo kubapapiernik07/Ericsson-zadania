@@ -10,7 +10,7 @@ string check(char ch)
 
 	else if (ch >= 'a' && ch <= 'z') ans = "lower";
 
-    else if (ch >= '0' && ch <= '9') ans = "digit";
+    	else if (ch >= '0' && ch <= '9') ans = "digit";
 
 	else ans = "other";
 
