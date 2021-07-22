@@ -8,10 +8,10 @@ int solution(int N, int K)
     else
     {
         unsigned long long r=1;
-        if(K>N-K) K=N-K;
+        if(K>N-K) K=N-K;    //to optimize; (N, K) == (N, N-K)
         for (int i = 0; i < K; i++)
         {
-            r *= (N - i);
+            r *= (N - i);   // [n * (n-1) *...* (n-k+1)] / [k * (k-1) *...* 1]
             r /= (i + 1);
         }
         if(r>1000000000) return -1;
