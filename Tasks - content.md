@@ -20,6 +20,7 @@ B(5, 3) = factorial(5) / (factorial(3) * factorial(2))
 = 120 / (6 * 2)
 = 120 / 12
 = 10
+
 Write a function:
 int solution(int N, int K);
 that, given two integers N and K, returns the value of B(N, K).
@@ -32,7 +33,7 @@ Given N = 40 and K = 20, the function should return −1, because B(40, 20) exce
 Given N = 3 and K = 5, the function should return −1, because the result is undefined.
 
 Write an efficient algorithm for the following assumptions:
-N and K are integers within the range [−2,147,483,648..2,147,483,647].
+N and K are integers within the range <−2,147,483,648;2,147,483,647>.
 
 Task 3.
 Calculate the Fibonacci sequence and factorial (two different methods) by recursion for the ranges of
