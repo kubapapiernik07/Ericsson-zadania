@@ -6,7 +6,7 @@ string check(char ch)
 {
     string ans;
 
-	if (ch >= 'A' && ch <= 'Z') ans = "upper";
+	if (ch >= 'A' && ch <= 'Z') ans = "upper";	// conditions based on ASCII
 
 	else if (ch >= 'a' && ch <= 'z') ans = "lower";
 
